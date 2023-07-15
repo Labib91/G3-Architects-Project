@@ -1,6 +1,9 @@
 /* shared style */
 
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
 
@@ -106,12 +109,19 @@ main {
   margin-bottom: 32px;
 }
 
+/* features style here */
+.features {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 100px;
+}
+.features img{
+ max-width: 100%; 
+}
 
-
-
-
-
-
+.main-card{
+  
+}
 /* responsive here */
 
 @media screen and (max-width: 576px) {
